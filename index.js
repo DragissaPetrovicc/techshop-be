@@ -37,7 +37,7 @@ const options = {
       contact: {
         name: "Dragisa",
       },
-      servers: ["http://localhost:5000/"],
+      servers: ["https://techshop-be.vercel.app/"],
     },
     schemes: ["http", "https"],
   },
