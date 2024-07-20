@@ -83,8 +83,8 @@ router.post("/pay", roleMiddleware("USER"), async ({ body }, res) => {
       },
     }));
 
-    const success_url = "http://localhost:3000/success";
-    const cancel_url = "http://localhost:3000/cancel";
+    const success_url = "https://dragostechshop.netlify.app/success";
+    const cancel_url = "https://dragostechshop.netlify.app/cancel";
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
